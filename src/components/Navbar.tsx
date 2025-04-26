@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, CreditCard } from 'lucide-react';
-import logo from '../assets/logo.svg';
+
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,7 +14,8 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-              <img src={logo} width={400} height={50} className='h-14 w-full'/>
+              <CreditCard className="h-8 w-8 text-blue-800" />
+              <span className="ml-2 text-xl font-bold text-blue-900">Dhanmitra</span>
             </div>
             <div className="hidden md:ml-6 md:flex md:space-x-8">
               <a href="#home" className="border-transparent text-gray-700 hover:text-blue-700 hover:border-blue-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
