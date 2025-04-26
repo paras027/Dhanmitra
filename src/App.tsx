@@ -41,7 +41,6 @@ function App() {
       <Services />
       <About />
       <Process />
-      <Testimonials />
       <FAQ />
       <Contact />
       <Footer />
