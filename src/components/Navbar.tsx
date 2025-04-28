@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, CreditCard } from 'lucide-react';
-
+import logo from "../assets/logo.svg"
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,32 +14,26 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-              <CreditCard className="h-8 w-8 text-blue-800" />
-              <span className="ml-2 text-xl font-bold text-blue-900">Dhanmitra</span>
+              <img src={logo} width={150} className='rounded-lg p-5'/>
+              
             </div>
             <div className="hidden md:ml-6 md:flex md:space-x-8">
-              <a href="#home" className="border-transparent text-gray-700 hover:text-blue-700 hover:border-blue-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <a href="#home" className="border-transparent text-gray-700 hover:text-[#327fd1] hover:border-[#327fd1] inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                 Home
               </a>
-              <a href="#services" className="border-transparent text-gray-700 hover:text-blue-700 hover:border-blue-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <a href="#services" className="border-transparent text-gray-700 hover:text-[#327fd1] hover:border-[#327fd1] inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                 Services
               </a>
-              <a href="#about" className="border-transparent text-gray-700 hover:text-blue-700 hover:border-blue-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <a href="#about" className="border-transparent text-gray-700 hover:text-[#327fd1] hover:border-[#327fd1] inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                 About Us
               </a>
-              <a href="#process" className="border-transparent text-gray-700 hover:text-blue-700 hover:border-blue-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <a href="#process" className="border-transparent text-gray-700 hover:text-[#327fd1] hover:border-[#327fd1] inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                 Process
-              </a>
-              <a href="#testimonials" className="border-transparent text-gray-700 hover:text-blue-700 hover:border-blue-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                Testimonials
-              </a>
-              <a href="#faq" className="border-transparent text-gray-700 hover:text-blue-700 hover:border-blue-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                FAQ
               </a>
             </div>
           </div>
           <div className="hidden md:flex items-center">
-            <a href="#contact" className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-800 hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+            <a href="#contact" className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-[#327fd1] hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
               Contact Us
             </a>
           </div>

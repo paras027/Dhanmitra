@@ -14,20 +14,7 @@ const Footer: React.FC = () => {
             <p className="mt-4 text-gray-400">
               Your trusted partner for debt relief and financial freedom. We help you overcome debt and build a secure financial future.
             </p>
-            <div className="mt-6 flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
-                <Linkedin className="h-5 w-5" />
-              </a>
-            </div>
+         
           </div>
           
           <div>
@@ -37,39 +24,25 @@ const Footer: React.FC = () => {
               <li><a href="#services" className="text-gray-400 hover:text-white transition-colors duration-300">Services</a></li>
               <li><a href="#about" className="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
               <li><a href="#process" className="text-gray-400 hover:text-white transition-colors duration-300">Our Process</a></li>
-              <li><a href="#testimonials" className="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
-              <li><a href="#faq" className="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+
               <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors duration-300">Contact Us</a></li>
             </ul>
           </div>
           
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
-            <ul className="space-y-2">
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors duration-300">Debt Settlement</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors duration-300">Credit Counseling</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors duration-300">Legal Protection</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors duration-300">Financial Planning</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors duration-300">Debt Consolidation</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white transition-colors duration-300">Credit Repair</a></li>
-            </ul>
-          </div>
+
           
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-4">
               <li className="flex">
                 <span className="text-blue-400 mr-3">Address:</span>
-                <span className="text-gray-400">504, Pinnacle Business Park, BKC, Mumbai 400051</span>
+                <span className="text-gray-400">Assotech Business Cresterra,  Upper Ground Floor, Tower 2 Plot 2 Sector 135, Noida, 201301</span>
               </li>
               <li className="flex">
                 <span className="text-blue-400 mr-3">Phone:</span>
-                <span className="text-gray-400">+91 98765 43210</span>
+                <span className="text-gray-400">+91 01206262311</span>
               </li>
-              <li className="flex">
-                <span className="text-blue-400 mr-3">Email:</span>
-                <span className="text-gray-400">info@dhanmitra.com</span>
-              </li>
+              
             </ul>
           </div>
         </div>

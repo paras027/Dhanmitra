@@ -47,12 +47,10 @@ const Contact: React.FC = () => {
   return (
     <section id="contact" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-base font-semibold text-blue-800 tracking-wide uppercase">Contact Us</h2>
-          <p className="mt-2 text-3xl font-bold text-gray-900 sm:text-4xl">Get Your Free Consultation</p>
-          <p className="mt-4 max-w-2xl text-xl text-gray-600 mx-auto">
-            Take the first step towards financial freedom. Fill out the form below or reach out directly.
-          </p>
+        <div className="pl-5 mb-12">
+          <h2 className="text-3xl font-semibold text-[#327fd1] tracking-wide uppercase">Contact Us</h2>
+       
+         
         </div>
         
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -83,21 +81,7 @@ const Contact: React.FC = () => {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                      Email Address
-                    </label>
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      required
-                      value={formData.email}
-                      onChange={handleChange}
-                      className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+                      className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#327fd1] focus:border-[#327fd1]"
                     />
                   </div>
                   <div>
@@ -111,29 +95,24 @@ const Contact: React.FC = () => {
                       required
                       value={formData.phone}
                       onChange={handleChange}
-                      className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+                      className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#327fd1] focus:border-[#327fd1]"
                     />
                   </div>
                   <div>
-                    <label htmlFor="debtAmount" className="block text-sm font-medium text-gray-700">
-                      Approximate Debt Amount
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                      Email Address
                     </label>
-                    <select
-                      name="debtAmount"
-                      id="debtAmount"
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
                       required
-                      value={formData.debtAmount}
+                      value={formData.email}
                       onChange={handleChange}
-                      className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-                    >
-                      <option value="">Select amount</option>
-                      <option value="Below ₹2 lakhs">Below ₹2 lakhs</option>
-                      <option value="₹2 lakhs - ₹5 lakhs">₹2 lakhs - ₹5 lakhs</option>
-                      <option value="₹5 lakhs - ₹10 lakhs">₹5 lakhs - ₹10 lakhs</option>
-                      <option value="₹10 lakhs - ₹25 lakhs">₹10 lakhs - ₹25 lakhs</option>
-                      <option value="Above ₹25 lakhs">Above ₹25 lakhs</option>
-                    </select>
+                      className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#327fd1] focus:border-[#327fd1]"
+                    />
                   </div>
+                  
                 </div>
                 <div className="mt-6">
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700">
@@ -145,14 +124,14 @@ const Contact: React.FC = () => {
                     rows={4}
                     value={formData.message}
                     onChange={handleChange}
-                    className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+                    className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#327fd1] focus:border-[#327fd1]"
                   ></textarea>
                 </div>
                 <div className="mt-6">
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-800 hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 w-full justify-center"
+                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#327fd1] hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#29abe2] w-full justify-center"
                   >
                     {isSubmitting ? (
                       <>
@@ -165,7 +144,7 @@ const Contact: React.FC = () => {
                     ) : (
                       <>
                         <Send className="mr-2 h-5 w-5" />
-                        Request Free Consultation
+                        Submit
                       </>
                     )}
                   </button>
@@ -174,7 +153,7 @@ const Contact: React.FC = () => {
             )}
           </div>
           
-          <div className="bg-blue-800 text-white rounded-lg p-8">
+          <div className="bg-[#327fd1] text-white rounded-lg p-8">
             <h3 className="text-xl font-semibold mb-6">Get in Touch</h3>
             
             <div className="space-y-6">
@@ -182,15 +161,7 @@ const Contact: React.FC = () => {
                 <Phone className="h-6 w-6 mt-1 mr-4" />
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p className="mt-1">+91 98765 43210</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start">
-                <Mail className="h-6 w-6 mt-1 mr-4" />
-                <div>
-                  <p className="font-medium">Email</p>
-                  <p className="mt-1">info@dhanmitra.com</p>
+                  <p className="mt-1">+91 01206262311</p>
                 </div>
               </div>
               
@@ -199,9 +170,10 @@ const Contact: React.FC = () => {
                 <div>
                   <p className="font-medium">Office</p>
                   <p className="mt-1">
-                    504, Pinnacle Business Park<br />
-                    Bandra Kurla Complex<br />
-                    Mumbai, Maharashtra 400051
+                    Assotech Business Cresterra<br />
+                    Upper Ground Floor,<br />
+                    Tower 2 Plot 2 Sector 135 <br/>
+                    Noida, 201301
                   </p>
                 </div>
               </div>

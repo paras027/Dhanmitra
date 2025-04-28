@@ -38,20 +38,16 @@ const Hero: React.FC = () => {
             
             <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-8">
               <div className="animate-float bg-blue-800 bg-opacity-70 p-4 rounded-lg transform hover:scale-105 transition-all duration-300" style={{ animationDelay: '0.2s' }}>
-                <p className="text-3xl font-bold">₹10Cr+</p>
-                <p className="text-sm mt-1">Debt Resolved</p>
+               
               </div>
               <div className="animate-float bg-blue-800 bg-opacity-70 p-4 rounded-lg transform hover:scale-105 transition-all duration-300" style={{ animationDelay: '0.4s' }}>
-                <p className="text-3xl font-bold">500+</p>
-                <p className="text-sm mt-1">Happy Clients</p>
+             
               </div>
               <div className="animate-float bg-blue-800 bg-opacity-70 p-4 rounded-lg transform hover:scale-105 transition-all duration-300" style={{ animationDelay: '0.6s' }}>
-                <p className="text-3xl font-bold">94%</p>
-                <p className="text-sm mt-1">Success Rate</p>
+         
               </div>
               <div className="animate-float bg-blue-800 bg-opacity-70 p-4 rounded-lg transform hover:scale-105 transition-all duration-300" style={{ animationDelay: '0.8s' }}>
-                <p className="text-3xl font-bold">4.9/5</p>
-                <p className="text-sm mt-1">Client Rating</p>
+            
               </div>
             </div>
           </div>
@@ -59,7 +55,7 @@ const Hero: React.FC = () => {
       </div>
       
       <div className="absolute bottom-0 left-0 right-0">
-        <svg className="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 24 150 28" preserveAspectRatio="none">
+        <svg className="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 20 150 28" preserveAspectRatio="none">
           <defs>
             <path id="wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
           </defs>

@@ -53,13 +53,13 @@
                      className="w-full h-full object-center object-cover"
                    />
                  </div>
-                 <div className="absolute -bottom-8 -right-8 bg-blue-800 text-white p-8 rounded-lg shadow-lg max-w-xs hidden md:block">
-                   <p className="text-lg font-semibold">Our mission is to help 10,000 families achieve financial freedom by 2030</p>
+                 <div className="absolute -bottom-8 -right-8 bg-[#29abe2] text-white p-8 rounded-lg shadow-lg max-w-xs hidden md:block">
+                   <p className="text-lg font-semibold">We are a bunch of problem solvers. A one-stop solution for all your financial troubles (Debt related, of course).</p>
                  </div>
                </div>
                
                <div className="mt-10 lg:mt-0">
-                 <h2 className="text-base font-semibold text-blue-800 tracking-wide uppercase">About Dhanmitra</h2>
+                 <h2 className="text-base font-semibold text-[#327fd1] tracking-wide uppercase">About Dhanmitra</h2>
                  <p className="mt-2 text-3xl font-bold text-gray-900">Your Trusted Financial Partner</p>
                  <div className="mt-6 text-gray-700 space-y-6">
                    <p>
@@ -69,7 +69,7 @@
                  </div>
                  
                  <div className="mt-8">
-                   <a href="#contact" className="text-blue-700 font-medium flex items-center hover:text-blue-500 transition-colors duration-300">
+                   <a href="#contact" className="text-[#327fd1] font-medium flex items-center hover:text-blue-500 transition-colors duration-300">
                      Contact our team <span className="text-xl ml-1">→</span>
                    </a>
                  </div>
@@ -80,11 +80,11 @@
 
          <section id="founders" className="py-16 bg-gray-50">
            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-             <h2 className="text-base font-semibold text-blue-800 tracking-wide uppercase text-center">Meet The Founders</h2>
+             <h2 className="text-base font-semibold text-[#327fd1] tracking-wide uppercase text-center">Meet The Founders</h2>
              <p className="mt-2 text-3xl font-bold text-gray-900 text-center">Our Visionary Leaders</p>
              <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                {founders.map((founder, index) => (
-                 <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+                 <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:bg-blue-100">
                    <div className="aspect-w-1 aspect-h-1">
                      <img
                        src={founder.image}
