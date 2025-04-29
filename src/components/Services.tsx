@@ -1,32 +1,29 @@
 import React from 'react';
-import build from "../assets/build.svg"
-import lock from "../assets/lock.svg"
-import nodes from "../assets/nodes.svg"
-import spark from "../assets/spark.svg"
-import { CreditCard, BarChart3, ShieldCheck, LineChart } from 'lucide-react';
+import build from "../assets/build.svg";
+import lock from "../assets/lock.svg";
+import nodes from "../assets/nodes.svg";
+import spark from "../assets/spark.svg";
 
 interface ServiceCardProps {
-  icon: React.ReactNode;
+  icon: React.ReactNode | string; // Allow string for SVG imports
   title: string;
-
   delay: string;
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, delay }) => {
   return (
     <div
-      className="animate-fade-in bg-white rounded-lg border border-[#29abe2] p-6 transition-all duration-500  hover:-translate-y-2 hover:rotate-6  flex flex-col items-center"
+      className=" bg-white rounded-lg border border-[#327fd1] p-6 transition-all duration-500 hover:[transform:translateY(-0.5rem)_rotate(12deg)] flex flex-col items-center"
       style={{ animationDelay: delay }}
     >
-      <div className="w-[150px] h-[150px] flex items-center justify-center text-blue-800 transform transition-transform duration-500 hover:rotate-12">
+      <div className="w-[150px] h-[150px] flex items-center justify-center text-[#327fd1] transition-transform duration-500 hover:[transform:rotate(12deg)]">
         {typeof icon === 'string' ? (
-          <img src={icon} alt={title}  className="w-[100px] h-[100px] object-contain"/>
+          <img src={icon} alt={title} className="w-[100px] h-[100px] object-contain" />
         ) : (
           icon
         )}
       </div>
       <h3 className="mt-4 text-xl font-semibold text-gray-900 pb-7">{title}</h3>
-
     </div>
   );
 };
@@ -47,25 +44,21 @@ const Services: React.FC = () => {
           <ServiceCard 
             icon={build}
             title="Bespoke Solutions"
-            
             delay="0.2s"
           />
           <ServiceCard 
             icon={spark}
             title="Rapid Disbursement"
-           
             delay="0.4s"
           />
           <ServiceCard 
             icon={lock}
             title="Range of products"
-           
             delay="0.6s"
           />
           <ServiceCard 
             icon={nodes}
             title="Extensive Ecosystem"
-            
             delay="0.8s"
           />
         </div>
