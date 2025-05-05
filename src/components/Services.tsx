@@ -3,6 +3,17 @@ import build from "../assets/build.svg";
 import lock from "../assets/lock.svg";
 import nodes from "../assets/nodes.svg";
 import spark from "../assets/spark.svg";
+import deal from "../assets/deal.svg";
+import digi from "../assets/digital-ecosystem.svg";
+import discount from "../assets/discount.svg";
+import finance from "../assets/finance.svg";
+import fund from "../assets/fund.svg";
+import hospital from "../assets/hospital.svg";
+import loan from "../assets/loan.svg";
+import money from "../assets/money.svg";
+import real from "../assets/real-estate.svg";
+import funding from "../assets/funding.svg";
+
 
 interface ServiceCardProps {
   icon: React.ReactNode | string; // Allow string for SVG imports
@@ -34,31 +45,62 @@ const Services: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-base font-semibold text-[#327fd1] tracking-wide uppercase">Our Services</h2>
-          <p className="mt-2 text-3xl font-bold text-gray-900 sm:text-4xl">Financial Solutions Tailored for You</p>
+          <p className="mt-2 text-3xl font-bold text-gray-900 sm:text-4xl">Debt organised  for You</p>
           <p className="mt-4 max-w-2xl text-xl text-gray-600 mx-auto">
-            We offer comprehensive debt management services to help you achieve financial freedom.
+          We get you the best debt solution from Banks / NBFC at the lowest costs feasible
+          .
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <ServiceCard 
-            icon={build}
-            title="Bespoke Solutions"
+            icon={deal}
+            title="DealPartner"
             delay="0.2s"
           />
           <ServiceCard 
-            icon={spark}
-            title="Rapid Disbursement"
+            icon={fund}
+            title="QuickFund"
             delay="0.4s"
           />
           <ServiceCard 
-            icon={lock}
-            title="Range of products"
+            icon={hospital}
+            title="Working Capital Facility"
             delay="0.6s"
           />
           <ServiceCard 
-            icon={nodes}
+            icon={digi}
             title="Extensive Ecosystem"
+            delay="0.8s"
+          />
+          <ServiceCard 
+            icon={money}
+            title="Overdraft"
+            delay="0.8s"
+          />
+          <ServiceCard 
+            icon={loan}
+            title="Working Capital Loan"
+            delay="0.8s"
+          />
+          <ServiceCard 
+            icon={funding}
+            title="Sales based funding"
+            delay="0.8s"
+          />
+          <ServiceCard 
+            icon={discount}
+            title="Invoice discounting"
+            delay="0.8s"
+          />
+          <ServiceCard 
+            icon={real}
+            title="Loan against property"
+            delay="0.8s"
+          />
+          <ServiceCard 
+            icon={finance}
+            title="Cash Flow financing"
             delay="0.8s"
           />
         </div>

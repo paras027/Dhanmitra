@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
 
 const Hero: React.FC = () => {
-  const phrases = ["Debt Solutions?", "Unsecured Debt?", "Non Dilutive Capital?", "Alternative Finance?"];
-  const secphrases = ["Cloud Kitchens", "Local Businesses", "E-commerce Merchants.", "SAS Companies", "D2C Businesses"];
+  const phrases = ["Working Capital" , "Term Loan"," Overdraft" ,"Loan against Property" , "Unsecured Loans" ,"Invoice discounting" , "Vendor payments" , "and more …"];
+  const secphrases = ["MSME" , "Local Businesses", "Manufacturing industries" , "Traders" , "Real Estate" , "Exporters"];
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
   const [secPhraseIndex, setsecPhraseIndex] = useState(0);
 
@@ -41,10 +41,10 @@ const Hero: React.FC = () => {
         <div className="py-12 sm:py-16 md:py-20 lg:py-24">
           <div className="text-center">
             <h1
-              className="animate-slide-up text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl text-white mb-6"
+              className="animate-slide-up text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl text-white mb-6 "
               style={{ animationDelay: '0.2s' }}
             >
-              Looking for{" "}
+              Looking for Rs 50 Lakhs  to  Rs 20 Cr{" "}
               <span
                 key={phrases[currentPhraseIndex]}
                 className="animate-name inline-block text-blue-500"
@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
               className="animate-slide-up text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl text-white mb-12"
               style={{ animationDelay: '0.4s' }}
             >
-              We Fund{" "}
+              We arrange Funds {" "}
               <span
                 key={secphrases[secPhraseIndex]}
                 className="animate-name inline-block text-blue-500"

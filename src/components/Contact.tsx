@@ -175,6 +175,7 @@ const Contact: React.FC = () => {
                     Tower 2 Plot 2 Sector 135 <br/>
                     Noida, 201301
                   </p>
+                  <p>Duru House Juhu Tara Road Mumbai 400 059</p>
                 </div>
               </div>
             </div>

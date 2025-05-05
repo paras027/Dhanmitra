@@ -6,12 +6,12 @@
        {
          name: "U R Bhat",
          image: "https://lightseagreen-mole-866126.hostingersite.com/wp-content/uploads/2021/11/U-R-Bhat.png",
-         description: "Mr. U.R.Bhat , is one of India’s well-known investment advisors and has been managing institutional money for more than two decades. He is presently Director of Dalton Capital Advisors (India) Pvt. Ltd.",
+         description: "Mr. U.R.Bhat , is one of India’s well-known investment advisors and has been managing institutional money for more than two decades. He is presently a Director on various financial institutions.",
        },
        {
          name: "Adesh K Gupta",
          image: "https://lightseagreen-mole-866126.hostingersite.com/wp-content/uploads/2022/06/Adesh-K-Gupta.png",
-         description: "He is currently a member of the Board of Directors at Aditya Birla Insulators Limited, Samruddhi Cement Limited, Grasim Industries Ltd, Zee Entertainment Enterprises Limited, Probizadvisor & Insolvency Professionals LLP, Care Ratings Limited, Vinati Organics Limited, Krazybee Services Private Limited, India Pesticides Limited.",
+         description: "He is currently a member of the Board of Directors at Aditya Birla Insulators Limited, Samruddhi Cement Limited, Grasim Industries Ltd, Zee Entertainment Enterprises Limited, Probizadvisor & Insolvency Professionals LLP, Care Ratings Limited, Vinati Organics Limited, Krazybee Services Private Limited, India Pesticides Limited.Anand Rathi etc.",
        },
        {
          name: "Prakash Ahuja",
@@ -63,8 +63,7 @@
                  <p className="mt-2 text-3xl font-bold text-gray-900">Your Trusted Financial Partner</p>
                  <div className="mt-6 text-gray-700 space-y-6">
                    <p>
-                     With decades of experience our partners have the capabilities and expertise to take your venture to the next level of growth. At First Meridian Consulting, we combine our insights and skills to transform your processes and strategies, and in turn, your company. We’re proud to help shape and improve how our clients structure and manage their business.
-                     This debt platform is focused on MSN from 50 lakhs to 20 crores.
+                   With decades of experience our partners have the capabilities and expertise to take your venture to the next level of growth.  We combine our insights and skills in business and the banking system to understand the company. Dhan Mitra is  focused on debt funds  from 50 lakhs to 20 crores.
                    </p>
                  </div>
                  

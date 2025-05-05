@@ -24,7 +24,6 @@ const Footer: React.FC = () => {
               <li><a href="#services" className="text-gray-400 hover:text-white transition-colors duration-300">Services</a></li>
               <li><a href="#about" className="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
               <li><a href="#process" className="text-gray-400 hover:text-white transition-colors duration-300">Our Process</a></li>
-
               <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors duration-300">Contact Us</a></li>
             </ul>
           </div>
@@ -34,9 +33,10 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-4">
-              <li className="flex">
+              <li className="flex flex-col">
                 <span className="text-blue-400 mr-3">Address:</span>
                 <span className="text-gray-400">Assotech Business Cresterra,  Upper Ground Floor, Tower 2 Plot 2 Sector 135, Noida, 201301</span>
+                <span>Duru House Juhu Tara Road Mumbai 400 059</span>
               </li>
               <li className="flex">
                 <span className="text-blue-400 mr-3">Phone:</span>

@@ -11,7 +11,7 @@ const ProcessCard: React.FC<ProcessStepProps> = ({ icon, title, description }) =
   return (
     <div
       className={` bg-white rounded-lg border border-[#29abe2] p-4 sm:p-6 transition-all duration-500 hover:-translate-y-2 hover:rotate-6 flex flex-col items-center w-full max-w-sm mx-auto ${
-        title === 'Personalisation' || title === 'Non-Dilutive Capital' ? 'mt-8 sm:mt-12' : 'mb-8 sm:mb-12'
+        title === 'TailorMade' || title === 'Non-Dilutive Capital' ? 'mt-8 sm:mt-12' : 'mb-8 sm:mb-12'
       }`}
     >
       <div
@@ -38,24 +38,24 @@ const Process: React.FC = () => {
             How <span className="text-[#327fd1]">Dhanmitra</span> Works
           </h2>
           <p className="mt-4 max-w-2xl text-lg sm:text-xl text-gray-600 mx-auto">
-            Through alternate finance, we'll identify the pain points and help raise capital without diluting y(our) business.
+          We understand your business and problems through discussions and meetings to develop a debt solution.
           </p>
         </div>
 
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           <ProcessCard
             icon={<PhoneCall size={32} />}
-            title="Rapid"
-            description="Tired of endless pitch meetings and negotiations? We'll ensure that the funds are transferred in a couple of days."
+            title="QuickConnect"
+            description="Once you approve the estimate and the costs involved we will onboard you into soft underwriting system and collect all the data from you and with your consent build a loan file to be submitted to the bank with our recommendation ."
           />
           <ProcessCard
             icon={<FileText size={32} />}
-            title="Personalisation"
+            title="TailorMade"
             description="One size doesn't fit all. We'll figure out what the business needs. We'll always come up with a solution that's best suited for y(our) business."
           />
           <ProcessCard
             icon={<TrendingUp size={32} />}
-            title="Flexibility"
+            title="FlexiSolve"
             description="We find ways to unlock value tied up in your business that traditional funding methods can't. How? The answer is alternate financing."
           />
           <ProcessCard
