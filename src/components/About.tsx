@@ -35,9 +35,14 @@
        },
        {
          name: "Uthsav Ahuja",
-         image: "https://lightseagreen-mole-866126.hostingersite.com/wp-content/uploads/2021/11/Uthsav.png",
+         image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1746602311/Uthsav_euqqzq.png",
          description: "Digital Executive with experiences in building and growing digital companies.",
        },
+       {
+        name: "Sameehanay",
+        image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1746602505/Samee_shqcv7.jpg",
+        description: "Sameehanay has built product and tech across fintech, education, and GenAI. He designs systems that are simple, scalable, and built to last..",
+      },
      ];
 
      return (
