@@ -5,42 +5,42 @@
      const founders = [
        {
          name: "U R Bhat",
-         image: "https://lightseagreen-mole-866126.hostingersite.com/wp-content/uploads/2021/11/U-R-Bhat.png",
+         image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1746687120/ChatGPT_Image_May_8_2025_12_18_34_PM_auv1d4.png",
          description: "Mr. U.R.Bhat , is one of India’s well-known investment advisors and has been managing institutional money for more than two decades. He is presently a Director on various financial institutions.",
        },
        {
          name: "Adesh K Gupta",
-         image: "https://lightseagreen-mole-866126.hostingersite.com/wp-content/uploads/2022/06/Adesh-K-Gupta.png",
+         image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1746687120/ChatGPT_Image_May_8_2025_11_57_50_AM_axna9t.png",
          description: "He is currently a member of the Board of Directors at Aditya Birla Insulators Limited, Samruddhi Cement Limited, Grasim Industries Ltd, Zee Entertainment Enterprises Limited, Probizadvisor & Insolvency Professionals LLP, Care Ratings Limited, Vinati Organics Limited, Krazybee Services Private Limited, India Pesticides Limited.Anand Rathi etc.",
        },
        {
          name: "Prakash Ahuja",
-         image: "https://lightseagreen-mole-866126.hostingersite.com/wp-content/uploads/2021/11/prakash.png",
+         image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1746687120/ChatGPT_Image_May_8_2025_12_14_33_PM_uvgss7.png",
          description: "Innovative and competent professional manager with 40+years of experience in marketing and business development globally.",
        },
        {
          name: "M Jayaram",
-         image: "https://lightseagreen-mole-866126.hostingersite.com/wp-content/uploads/2021/11/Jayaram.png",
+         image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1746687121/ChatGPT_Image_May_8_2025_12_00_45_PM_b2llzi.png",
          description: "Extensive experience of over 40 years, starting as a Senior Management Trainee, in a leading engineering firm to being a Managing Director of an associated Financial Services Company.",
        },
        {
          name: "Dimcy Chopra",
-         image: "https://lightseagreen-mole-866126.hostingersite.com/wp-content/uploads/2024/02/dimcy-chopra-latest.jpg",
+         image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1746687123/ChatGPT_Image_May_8_2025_12_05_38_PM_oqjim6.png",
          description: "With over 10 years of experience in Investment Banking and Consulting, Dimcy has a strong domain expertise in deal negotiations and her legal background along with her business acumen adds value in expediting negotiations.",
        },
        {
          name: "Sumeet Singh",
-         image: "https://lightseagreen-mole-866126.hostingersite.com/wp-content/uploads/2023/09/sumeet-Singh.jpg",
+         image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1746687456/ChatGPT_Image_May_8_2025_12_27_26_PM_nmtjgj.png",
          description: "A seasoned business strategist, Sumeet brings a wealth of experience from the realms of consulting, venture capital, and entrepreneurship.",
        },
        {
          name: "Uthsav Ahuja",
-         image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1746602311/Uthsav_euqqzq.png",
+         image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1746688259/ChatGPT_Image_May_8_2025_12_16_31_PM_fdsjp2.png",
          description: "Digital Executive with experiences in building and growing digital companies.",
        },
        {
         name: "Sameehanay",
-        image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1746602505/Samee_shqcv7.jpg",
+        image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1746688211/ChatGPT_Image_May_8_2025_11_53_16_AM_wlyhwn.png",
         description: "Sameehanay has built product and tech across fintech, education, and GenAI. He designs systems that are simple, scalable, and built to last..",
       },
      ];
