@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight } from 'lucide-react';
 
 const Hero: React.FC = () => {
-  const phrases = ["Working Capital" , "Term Loan"," Overdraft" ,"Loan against Property" , "Unsecured Loans" ,"Invoice discounting" , "Vendor payments" , "and more …"];
-  const secphrases = ["MSME" , "Local Businesses", "Manufacturing industries" , "Traders" , "Real Estate" , "Exporters"];
+  const phrases = ["Working Capital" , "Term Loan"," Overdraft" ,"Loan against Property" , "Unsecured Loans" ,"Invoice discounting" , "Vendor payments" , "Aur bohot kuch …"];
+  const secphrases = ["MSME " , "Local Businesses ", "Manufacturer " , "Trader " , "Real Estate Developer " , "exporter ya local business "];
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
   const [secPhraseIndex, setsecPhraseIndex] = useState(0);
 
@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
               className="animate-slide-up text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl text-white mb-6 "
               style={{ animationDelay: '0.2s' }}
             >
-              Looking for Rs 50 Lakhs  to  Rs 20 Cr{" "}
+              50 lakh se 20 CR tak ki dhanrashi ke liye sampark kare {" "}
               <span
                 key={phrases[currentPhraseIndex]}
                 className="animate-name inline-block text-blue-500"
@@ -56,13 +56,15 @@ const Hero: React.FC = () => {
               className="animate-slide-up text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl text-white mb-12"
               style={{ animationDelay: '0.4s' }}
             >
-              We arrange Funds {" "}
+              Kya app  {" "} 
               <span
                 key={secphrases[secPhraseIndex]}
                 className="animate-name inline-block text-blue-500"
               >
                 {secphrases[secPhraseIndex]}
               </span>
+                            
+               {" "} owner ha? <br/>  Humse sampark kare
             </h1>
             <div
               className="animate-slide-up mt-8 flex flex-col sm:flex-row gap-4 justify-center"
@@ -78,7 +80,7 @@ const Hero: React.FC = () => {
                 href="#services"
                 className="rounded-md bg-transparent border border-white px-5 py-2.5 sm:px-6 sm:py-3 text-sm sm:text-base font-semibold text-white hover:bg-white hover:text-blue-900 hover:transform hover:scale-105 transition-all duration-300 flex items-center justify-center"
               >
-                Our Services <ArrowRight className="ml-2 h-4 w-4" />
+                Apki Seva me <ArrowRight className="ml-2 h-4 w-4" />
               </a>
             </div>
             <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-4 lg:gap-6">

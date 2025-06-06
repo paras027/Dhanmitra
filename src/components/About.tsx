@@ -25,7 +25,7 @@
        },
        {
          name: "Dimcy Chopra",
-         image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1748864910/ChatGPT_Image_Jun_2_2025_05_17_54_PM_iltflw.png",
+         image: "https://res.cloudinary.com/dvurpflmb/image/upload/v1749205102/DIMCY2_fipnsw.jpg",
          description: "With over 10 years of experience in Investment Banking and Consulting, Dimcy has a strong domain expertise in deal negotiations and her legal background along with her business acumen adds value in expediting negotiations.",
        },
        {
